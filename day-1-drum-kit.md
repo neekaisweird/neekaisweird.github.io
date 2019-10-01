@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
-  <link rel="stylesheet" href="./day-1-drum-kit/style.css">
+  <link rel="stylesheet" href="day-1-drum-kit/style.css">
 </head>
 <body>
 
@@ -57,6 +57,6 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
-<script src="./day-1-drum-kit/app.js"></script>
+<script src="day-1-drum-kit/app.js"></script>
 </body>
 </html>
