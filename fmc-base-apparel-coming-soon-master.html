@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/base-apparel-coming-soon-master/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 
@@ -17,27 +17,26 @@
 <body>
   <div class="container">
     <section class="main">
-      <img class="logo" src="/base-apparel-coming-soon-master/images/logo.svg" alt="Base Apparel">
-      <img class="hero-mobile" src="/base-apparel-coming-soon-master/images/hero-mobile.jpg" alt="apparel model">
+      <img class="logo" src="images/logo.svg" alt="Base Apparel">
+      <img class="hero-mobile" src="images/hero-mobile.jpg" alt="apparel model">
       <div class="main-text">
         <h1><span>We're</span> coming soon</h1>
         <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
           up-to-date with announcements and our launch deals.</p>
       </div>
       <form>
-        <input type="email" id="email" class="valid-form" placeholder="Email Address" alt="email" required>
-        <img src="/base-apparel-coming-soon-master/images/icon-error.svg" class="not-valid-image" alt="not valid">
-        <button class="submit-email" type="submit"><img src="/base-apparel-coming-soon-master/images/icon-arrow.svg"
-            alt="arrow"></button>
+        <input type="email" id="email" class="valid-form" placeholder="Email Address" aria-label="email" required>
+        <img src="images/icon-error.svg" class="not-valid-image" alt="not valid">
+        <button class="submit-email" type="submit"><img src="images/icon-arrow.svg" alt="arrow"></button>
 
       </form>
       <p class="not-valid-message">
         Please provide a valid email
       </p>
     </section>
-    <section class="hero">
-      <img class="hero-desktop" src="/base-apparel-coming-soon-master/images/hero-desktop.jpg" alt="apparel model">
-    </section>
+    <div class="hero">
+      <img class="hero-desktop" src="images/hero-desktop.jpg" alt="apparel model">
+    </div>
   </div>
   <footer>
     <p class="attribution">
@@ -48,4 +47,4 @@
 </body>
 
 </html>
-<script type="text/javascript" src="/base-apparel-coming-soon-master/app.js"></script>
+<script src="app.js"></script>
