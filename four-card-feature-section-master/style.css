@@ -192,7 +192,7 @@ header p {
     grid-template-rows: repeat(4, 1fr);
     gap: 1.5rem;
     margin: 3rem auto;
-    max-width: 1100px;
+    max-width: 1150px;
   }
   .card-container > *:nth-child(1) {
     -ms-grid-row: 1;
